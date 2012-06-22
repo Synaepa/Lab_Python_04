@@ -1,0 +1,19 @@
+question 1
+
+market_list = ['banana','strawberries','apples','bread']
+market_list.append('champange')
+market_list.remove('bread')
+market_list.sort()
+for fruits in market_list:
+    print fruits    
+
+
+question 2
+a. i will use dictionary data type
+
+
+item_price = {'ITEM':'PRICE','apples':'SPIC_APPLES','banana':'SPIC_BANANA','bread':'SPIC_BREAD','carrots':'SPRIC_CARROTS','champange':'SPIC_CHAMPANGE','strawberry':'SPIC_STRAWBERRY','chicken':'SPIC_CHICKEN'}
+item_price['strawberry'] = 'WPIC_STRAWBERRY'
+for k,v in item_price.iteritems():
+    print k,v
+    
